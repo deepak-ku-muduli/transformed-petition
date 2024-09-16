@@ -66,14 +66,14 @@ Installation and Setup:
 
 Project Structure:
 
-    │   ├── petition_program_with_func.py  # Main transformation logic
+    │── transform_petitions.py  # Main transformation logic
     ├── data/
     │   ├── input_data.json                # Input JSON file (example data)
     ├── tests/
-    │   ├── test_petition_program_with_func.py  # Test cases
+    │   ├── test_transform_petitions.py  # Test cases
     ├── README.md                          # Project documentation
-    ├── requirements.txt                   # Python dependencies
-    └── transform_petitions.py             # Script to execute the transformation
+    └── requirements.txt                   # Python dependencies
+   
 
 
 Testing:
@@ -82,6 +82,11 @@ I have included at least one test to verify the transformation logic. The tests 
 
 	•	The petition IDs are generated correctly.
 	•	The word count for the 20 most common words is accurate.
+	•	Assert that words with length < 5 are filtered out and Assert that words with length >= 5 are present
+	•	Check the number of occurrence of each words
+	•	Get common words
+	•	Add words to get their count
+	•	Dropping not required columns
 
 
 Best Practices:
