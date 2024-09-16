@@ -49,8 +49,8 @@ Steps:
 Installation and Setup:
 
 	1.	Clone the Repository:
-    git clone 
-    cd petition-data-transformation
+    git clone git@github.com:deepak-ku-muduli/transformed-petition.git
+    cd transformed-petition
 
     2.	Install Dependencies:
     Ensure you have Python installed. Then, install required libraries:
